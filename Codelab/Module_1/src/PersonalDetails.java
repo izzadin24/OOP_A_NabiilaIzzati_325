@@ -1,13 +1,14 @@
-import java.util.Scanner;
-import java.time.LocalDate;
+import java.util.Scanner; //importing scanner class.
+// Unlike C, Java needs programmer to import this for input
+import java.time.LocalDate; //localdate is used for getting the current year
 
-public class PersonalDetails {
+public class PersonalDetails { //class is personal details
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
+        Scanner scanner = new Scanner(System.in);/*assigning variable class from Class
+         construction */
         // Input section
-        System.out.print("Enter name: ");
-        String name = scanner.nextLine();
+        System.out.print("Enter name: "); //output so user can read and give data
+        String name = scanner.nextLine(); //variable and scanner
 
         System.out.print("Enter gender (M/F): ");
         char gender = scanner.next().charAt(0);
@@ -15,27 +16,28 @@ public class PersonalDetails {
         System.out.print("Enter year of birth: ");
         int yearOfBirth = scanner.nextInt();
 
-        // untuk menutup scanner
+        // To close scanner. avoiding waste of resources
         scanner.close();
 
-        // Menghitung usia berdasarkan tahun lahir
+        // variable of year. since we used localdate,
+        // we can get the realtime of the year
         int currentYear = LocalDate.now().getYear();
         int age = currentYear - yearOfBirth;
 
-        // Menentukan gender dari input
+        // variable gender and gender input conditional section
         String genderStr;
-        if (gender == 'M' || gender == 'm') {
-            genderStr = "Male";
-        } else if (gender == 'F' || gender == 'f') {
-            genderStr = "Female";
-        } else {
+        if (gender == 'M' || gender == 'm') { //if user inputs 'M' or 'm'
+            genderStr = "Male"; //then assign string varibale of gender
+        } else if (gender == 'F' || gender == 'f') { //if user inputs 'F' or 'f'
+            genderStr = "Female"; //then assign string varibale of gender
+        } else { //other option other than the two above
             genderStr = "Unknown";
         }
 
-        // Output data pengguna
-        System.out.println("\nPersonal Data:");
-        System.out.println("Name    : " + name);
-        System.out.println("Gender  : " + genderStr);
+        // Output user's data
+        System.out.println("\nPersonal Data:"); //\n to give space for output text
+        System.out.println("Name    : " + name); //normal output
+        System.out.println("Gender  : " + genderStr); //etc
         System.out.println("Age     : " + age + " years");
     }
 }
