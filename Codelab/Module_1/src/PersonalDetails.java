@@ -5,7 +5,7 @@ public class PersonalDetails {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input data
+        // Input section
         System.out.print("Enter name: ");
         String name = scanner.nextLine();
 
@@ -15,7 +15,7 @@ public class PersonalDetails {
         System.out.print("Enter year of birth: ");
         int yearOfBirth = scanner.nextInt();
 
-        // Menutup scanner setelah selesai
+        // untuk menutup scanner
         scanner.close();
 
         // Menghitung usia berdasarkan tahun lahir
