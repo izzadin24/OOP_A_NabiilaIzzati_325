@@ -9,7 +9,6 @@ public class PersonalDetails { //class is personal details
         // Input section
         System.out.print("Enter name: "); //output so user can read and give data
         String name = scanner.nextLine(); //variable and scanner
-
         System.out.print("Enter gender (M/F): ");
         char gender = scanner.next().charAt(0);
 

@@ -1,0 +1,32 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class BankAccount {
+   String accountNumber;
+   String ownerName;
+   double balance;
+
+   BankAccount() {
+   }
+
+   public void displayInfo() {
+      System.out.println("Nomor Rekening: " + this.accountNumber);
+      System.out.println("Nama Pemilik: " + this.ownerName);
+      System.out.println("Saldo: Rp" + this.balance);
+      System.out.println();
+   }
+
+   public void depositMoney(double var1) {
+      this.balance += var1;
+      System.out.println(this.ownerName + " menyetor Rp" + var1 + ". Saldo sekarang: Rp" + this.balance);
+   }
+
+   public void withdrawMoney(double var1) {
+      if (this.balance >= var1) {
+         this.balance -= var1;
+         System.out.println(this.ownerName + " menarik Rp" + var1 + ". (Berhasil) Saldo sekarang: Rp" + this.balance);
+      } else {
+         System.out.println(this.ownerName + " menarik Rp" + var1 + ". (Gagal, Saldo tidak mencukupi) Saldo saat ini: Rp" + this.balance);
+         System.out.println();
+      }
+
+   }
+}
