@@ -1,8 +1,8 @@
-public class Admin {
+class Admin {
   private String validUsername;
   private String validPassword;
 
-  public Admin(String validUsername, String validPassword) { //construction
+  public Admin(String validUsername, String validPassword) { //constructor
       this.validUsername = validUsername;
       this.validPassword = validPassword;
   }

@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
-public class LoginSystem {
+public class LoginSystem1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Admin admin = new Admin("Admin", "Admin123"); 
+        Admin admin = new Admin("Admin", "Admin123"); //instance objects
         Student student = new Student("Nabiila Izzati", "202410370110325");
 
-        System.out.println("======Login System======");
         System.out.println("Select Login Type:");
         System.out.println("1. Admin");
         System.out.println("2. Student");
