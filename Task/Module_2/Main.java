@@ -1,6 +1,10 @@
+
+import Task.Module_3.Admin;
+import Task.Module_3.Student;
+
 import java.util.Scanner;
 
-public class LoginSystem1 {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
