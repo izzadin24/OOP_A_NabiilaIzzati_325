@@ -1,10 +1,10 @@
-
-import Task.Module_3.Admin;
-import Task.Module_3.Student;
+package Task.Module_2;
+import Task.Module_2.Admin;
+import Task.Module_2.Student;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

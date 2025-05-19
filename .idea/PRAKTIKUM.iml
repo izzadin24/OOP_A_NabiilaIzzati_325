@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Codelab/Module_1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MODUL 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Task/Module_3" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Codelab/Module_2" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
