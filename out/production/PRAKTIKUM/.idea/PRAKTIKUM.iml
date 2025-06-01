@@ -7,9 +7,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Codelab/Module_1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MODUL 1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Task/Module_3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Task/Module/com/praktikum/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/Codelab/Module_2" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="lib1" level="project" />
+    <orderEntry type="library" name="lib2" level="project" />
   </component>
 </module>

@@ -1,4 +1,4 @@
-package Module_3.codelab1; //package is indicating this file is in that folder
+package Codelab.Module_3.codelab1; //package is indicating this file is in that folder
 
 //the superclass, or parent class is called GameCharacter 
 public class GameCharacter { 

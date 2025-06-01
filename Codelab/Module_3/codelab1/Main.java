@@ -1,9 +1,10 @@
-package Module_3.codelab1;
+package Codelab.Module_3.codelab1;
+
 
 public class Main { //Main class to run the program
   public static void main(String[] args) {
     //creating objects instances of hero and enemy with its initial name and health values
-    Hero hero1 = new Hero("Brimstone", 150); 
+    Hero hero1 = new Hero("Brimstone", 150);
     Enemy enemy1 = new Enemy("Viper", 200);
 
     System.out.println("Initial status: "); //initial status output
